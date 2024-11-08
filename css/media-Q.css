@@ -1,0 +1,22 @@
+/* Default styles for mobile (small screens) */
+body {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+/* Tablet styles (min-width 768px) */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+
+/* Desktop styles (min-width 1024px) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+        padding: 30px;
+    }
+}
